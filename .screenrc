@@ -1,0 +1,30 @@
+defutf8 on
+defencoding utf8
+encoding utf8 utf8
+
+# color settings
+defbce on
+term xterm-256color
+termcap OP #new
+# termcapinfo linux ti@:te@
+termcapinfo xterm* ti@:te@
+# termcapinfo xterm-color ti@:te@
+
+# turn off startup messages
+startup_message off
+
+# turn off visual-bell
+vbell off
+
+# automatically detach session if connection failed
+autodetach on
+
+# ログファイルのファイル名
+logfile "$HOME/.screens/screen-%Y%m%d-%n.log"
+
+defscrollback 100000
+altscreen on
+
+hardstatus alwayslastline "%{= cd} %-w%{= dd} %n %t* %{-}%+w %= LoadAVG [%l] "
+
+shell $SHELL"
