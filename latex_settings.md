@@ -76,7 +76,7 @@ texliveを使いましょう。
     // TeX distro: "miktex" or "texlive"
     "distro" : "miktex",
     // Command to invoke Sumatra. If blank, "SumatraPDF.exe" is used (it has to be on your PATH)
-    "sumatra": "C:\\Users\\70723247\\AppData\\Local\\SumatraPDF\\SumatraPDF.exe",
+    "sumatra": "C:\\Users\\[USERNAME]\\AppData\\Local\\SumatraPDF\\SumatraPDF.exe",
     // Command to invoke Sublime Text. Used if the keep_focus toggle is true.
     // If blank, "subl.exe" or "sublime_text.exe" will be used.
     "sublime_executable": "subl.exe",
